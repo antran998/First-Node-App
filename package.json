@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-classic",
+  "version": "1.0.0",
+  "description": "First Node App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antran998/First-Node-App.git"
+  },
+  "author": "An Trần",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antran998/First-Node-App/issues"
+  },
+  "homepage": "https://github.com/antran998/First-Node-App#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.3",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.4",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.11.0",
+    "stripe": "^8.29.0"
+  }
+}
